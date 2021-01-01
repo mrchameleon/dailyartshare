@@ -45,7 +45,11 @@ app.use(express.static("public"));
 
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/views/index2.html");
+  response.sendFile(__dirname + "/views/index.html");
+});
+
+app.get("/beta-tools", (request, response) => {
+  response.sendFile(__dirname + "/views/beta-tools.html");
 });
 
 app.get("/calendar", (request, response) => {

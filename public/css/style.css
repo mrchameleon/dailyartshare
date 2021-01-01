@@ -36,6 +36,7 @@ input {
 
 form button {
   background-color: #bbbbf2;
+  color: #000;
   border: 2px solid currentColor;
   border-radius: .25em;
   cursor: pointer;
@@ -53,10 +54,4 @@ footer {
   margin-top: 3em;
   padding-top: 1.5em;
   border-top: 1px solid lightgrey;
-}
-
-.haiku {
-  font-size: 32px;
-  line-height: 1.4em;
-  color: green;
 }

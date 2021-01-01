@@ -18,6 +18,16 @@ h6 {
   font-weight: 800 !important;
 }
 
+.haiku {
+  font-size: 100px !important;
+  line-height: 1.4em;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.footer-text {
+  color: coral !important;
+}
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
