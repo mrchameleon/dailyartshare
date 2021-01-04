@@ -48,8 +48,8 @@ app.get("/", (request, response) => {
   response.sendFile(__dirname + "/views/index.html");
 });
 
-app.get("/drawing-prompts", (request, response) => {
-  response.sendFile(__dirname + "/views/drawing-prompts.html");
+app.get("/community", (request, response) => {
+  response.sendFile(__dirname + "/views/community.html");
 });
 
 app.get("/calendar", (request, response) => {
